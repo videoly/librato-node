@@ -1,5 +1,9 @@
 # Change Log
 
+## [4.1.0-videoly1] (2016-08-21)
+
+- Log body of the request when an error happens, instead of the "undefined" response from the server. This is for debug purposes only.
+
 ## [v4.0.0](https://github.com/goodeggs/librato-node/tree/v4.0.0) (2015-05-05)
 
 [Full Changelog](https://github.com/goodeggs/librato-node/compare/v3.0.0...v4.0.0)
