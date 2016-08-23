@@ -1,6 +1,6 @@
 {
   "name": "librato-node",
-  "version": "4.1.0-videoly1",
+  "version": "4.1.0",
   "description": "A node.js client for Librato Metrics (http://metrics.librato.com/)",
   "homepage": "http://goodeggs.github.com/librato-node/",
   "main": "lib/librato",
@@ -29,7 +29,6 @@
   },
   "scripts": {
     "pretest": "./node_modules/.bin/coffee -c -m -o lib src",
-    "test": "./node_modules/.bin/mocha",
-    "pub": "./publish.sh"
+    "test": "./node_modules/.bin/mocha"
   }
 }
